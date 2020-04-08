@@ -3,3 +3,7 @@
 def position_taken?(board, index)
   board == " "
 end
+
+def position_taken?(board, index)
+  board == "X" || "O"
+end
